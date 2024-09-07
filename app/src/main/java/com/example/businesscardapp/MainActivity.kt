@@ -103,7 +103,10 @@ fun BusinessCardDetails(number: String, gitHub: String, email: String, modifier:
         modifier = modifier.fillMaxSize()
     ) {
 
-        Row {
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+            
+        ) {
             Icon(
                 imageVector = Icons.Filled.Call,
                 contentDescription = "cell"
@@ -116,7 +119,9 @@ fun BusinessCardDetails(number: String, gitHub: String, email: String, modifier:
             )
         }
 
-        Row {
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             Icon(imageVector = Icons.Outlined.Code,
                 contentDescription = "github" )
             Text(
@@ -126,7 +131,9 @@ fun BusinessCardDetails(number: String, gitHub: String, email: String, modifier:
             )
         }
 
-        Row {
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             Icon(
                 imageVector = Icons.Filled.Email,
                 contentDescription = "email"
