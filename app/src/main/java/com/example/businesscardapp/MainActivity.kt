@@ -25,6 +25,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -56,14 +57,14 @@ fun BusinessCardApp(){
             .background(Color(0xFFE6F2E6))
     ) {
         Introduction(
-            name = "Sumaya Alqadhy",
-            title = "Android Software Engineer",
+            name = stringResource(R.string.name),
+            title = stringResource(R.string.job_title),
             modifier = Modifier.weight(1f)
         )
         BusinessCardDetails(
-            number = "510-921-4896",
-            gitHub = "github.com/sumayaalqadhy",
-            email = "sumaya.alqadhy@gmail.com",
+            number = stringResource(R.string.phone_number),
+            gitHub = stringResource(R.string.github),
+            email = stringResource(R.string.email),
             modifier = Modifier
                 .weight(1f)
                 .padding(bottom = 100.dp)

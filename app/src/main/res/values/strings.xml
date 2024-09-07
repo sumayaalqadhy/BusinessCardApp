@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Business Card App</string>
+    <string name="name">Sumaya Alqadhy</string>
+    <string name="job_title">Android Software Engineer</string>
+    <string name="phone_number">510-921-4896</string>
+    <string name="github">github.com/sumayaalqadhy</string>
+    <string name="email">sumaya.alqadhy@gmail.com</string>
 </resources>
